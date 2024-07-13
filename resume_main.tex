@@ -1,0 +1,141 @@
+\documentclass[compact]{llresume}
+
+\definecolor{fillcolor}{HTML}{f2efea}
+\definecolor{headingcolor}{HTML}{fc7753}
+\definecolor{accentcolor}{HTML}{403d58}
+
+\renewcommand{\emph}[1]{{\bfseries\color{accentcolor}#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Personal information
+%
+% For contacts and other info, you can use \infoGeneric{<icon>}{<text>}[<link>]
+% to add a line of information, or one of the following shortcuts in the form
+% \info<Shortcut>{<text>}[<link>]:
+%
+% \infoEmail          \infoDate           \infoLinkedin       \infoBook
+% \infoPhone          \infoPlace          \infoGithub         \infoAuthor
+% \infoAddress        \infoLink           \infoInstagram      \infoTools
+% \infoBirthday       \infoHomepage       \infoFlickr
+
+\name{Andrew}{Mueller}[he/him]
+
+\photo{photo.png}
+% \photo{photo_whiteBG.png}
+
+\personalinfo{
+    \infoBirthday{04/19/1988}
+    \infoEmail{aiglinski414@gmail.com}[mailto:aiglinski414@gmail.com]
+    \infoLinkedin{linkedin.com/in/andrew-m-689626198}[https://www.linkedin.com/in/andrew-m-689626198]
+    \infoGithub{github.com/igloo1505}[https://https://github.com/igloo1505]
+}
+
+\tagline{
+    Thank you for taking the time to review this. I've been working with common web technologies like javascript \& typescript, css, and Node.js since 2014, including most modern tools like Next.js, Ionic, React Native and more. I also have several years of experience with Python, and have a fair amount of experience with lua and bash/zsh as well. In the early weeks of 2022 I had a realization that occurred to me while reviewing some of Einstein's earliest work related to an assumption that he made, and how that assumption relates to physical phenomena that we've since observed. Almost immediately I began accepting less work until I gave up paid software work entirely to focus on publishing a paper in my formal field of study at the University of Wisconsin-Milwaukee, physics. Now 2 years later, I'm beyond excited to return to full-time work.
+}
+
+
+\begin{document}
+
+\makeheader
+
+\begin{mainpane}
+
+    \begin{mainsection}{Projects}
+        \entryGeneric
+            {Uh Little Less Dum}
+            [Over the course of my own research I became frustrated with existing academic focused note taking options, so I set out to build my own app for personal use. I've since reorganized that application into an all-in-one academic note taking and research framework built around a plugin, slot style architecture.]
+            [\infoHomepage
+            {https://uhlittlelessdum.com}
+            [https://uhlittlelessdum.com]]
+            [\infoGithub
+                {https://github.com/igloo1505/ulld}
+                [https://github.com/igloo1505/ulld]]
+            [\infoLink
+            {Video demo}
+            [https://youtube.com/playlist?list=PLf3qNctR2RluliQrW-jaKNWjDLAMFUP5Q&si=FwhBDKVFgV5SJVWG]]
+
+        \entryGeneric
+            {Much more work available on request}
+            [Due to the limitations I'm currently facing which were mentioned in the accompanying cover letter, much of my most recent work is unavailable on public domains. I can temporarily host much of it, or provide video demonstrations on request.]
+            [\infoGithub
+                {github.com/igloo1505/poetry\_blog}
+                [https://github.com/igloo1505/poetry_blog]]
+    \end{mainsection}
+
+    \begin{mainsection}{Work experience}
+        \entryJob
+            {Freelance developer}
+            [After accepting small jobs for little pay while working in another field, I was able to build enough of a client base to work as a full time freelancer in 2015.]
+            {Milwaukee \& remote}
+            {April 2015 -- February 2022}
+    \end{mainsection}
+
+    \begin{mainsection}{Personal interests}
+        \entryTags{
+            \boxedtag{Physics \& cosmology}
+            \boxedtag{Math - I'm not joking.}
+            \boxedtag{Cooking (well, eating mostly)}
+            \boxedtag{Health \& fitness}
+            \boxedtag{Reading}
+        }
+    \end{mainsection}
+
+    \begin{mainsection}{Recent Pursuits}
+    \entryJob
+            {Aspiring Astrophysicist}
+            [While working as a freelance developer I spent much of my time between clients reading the latest cosmology research and daydreaming about the the nature of the Universe. 
+            In January of 2022 I was doing exactly this when an assumption that was made in some of Einstein's earliest work occurred to me. While this assumption appears to be common sense at first glance, in the context of cosmic inflation these assumptions appear to have been made in error. I finished my last few small projects and spent the next 2 years working on a testable hypothesis to differentiate the modified geometry I proposed from current interpretations of relativity. That paper is now set to be submitted for publication in July of 2024.]
+            {Milwaukee}
+            {February 2022 -- Current}
+    \end{mainsection}
+
+
+    \begin{mainsection}{Skills \& languages}
+
+        \entrySkills[Frameworks, APIs \& Libraries]{
+            \skill{React}{3}
+            \skill{Next.js}{3}
+            \skill{MongoDB}{3}
+            \skill{Mongoose}{3}
+            \skill{Express}{3}
+            \skill{Node.js}{3}
+            \skill{Google Analytics}{3}
+            \skill{Google Cloud}{3}
+            \skill{Firebase}{3}
+            \skill{SQLite}{3}
+            \skill{Postgres}{3}
+            \skill{Prisma}{3}
+            \skill{AWS}{2}
+            \skill{GraphQL}{2}
+            \skill{Ionic}{2}
+            \skill{React Native}{2}
+        }
+        \entrySkills[Other tools]{
+            \simpleskill{Git}
+            \simpleskill{Various package managers}
+            \simpleskill{GSAP, Framer-motion}
+            \simpleskill{Three.js}
+            \simpleskill{Socket.io}
+            \simpleskill{Material UI}
+            \simpleskill{JSON web tokens}
+            \simpleskill{OAuth}
+            \simpleskill{Redux}
+            \simpleskill{Webpack \& Babel}
+            \simpleskill{Jupyter}
+            \simpleskill{Testing with Postman}
+        }
+        \entrySkills[Languages]{
+            \skill{Typescript}{3}
+            \skill{CSS \& SASS}{3}
+            \skill{Python}{3}
+            \skill{Latex}{2}
+            \skill{Lua}{2}
+            \skill{Bash/zsh}{2}
+            \skill{Swift}{1}
+        }
+    \end{mainsection}
+
+\end{mainpane}
+
+\end{document}
